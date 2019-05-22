@@ -1,0 +1,10 @@
+<div class="slider-container">
+  Refresh Rate (seconds)
+  <mat-slider [min]="min"
+              [max]="max"
+              [value]="value"
+              [step]="step"
+              (input)="onProgressChange($event)">
+  </mat-slider>
+  <span class="input-value">{{value}}</span>
+</div>

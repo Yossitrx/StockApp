@@ -1,0 +1,8 @@
+<mat-form-field>
+  <mat-label>Select Stock</mat-label>
+  <mat-select [disabled]="disabled">
+    <mat-option *ngFor="let name of list" (click)="onClick(name)">
+      {{name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

@@ -1,0 +1,20 @@
+export const STOCK_LIST: Set<string> = new Set <string> ([
+  'AAPL',
+  'ARNA',
+  'CLDR',
+  'FB',
+  'AMZN',
+  'PLAY',
+  'CBS',
+  'NBIX',
+  'SBGI',
+  'LAUR',
+  'AAP',
+  'BA',
+  'BABA',
+  'CABO',
+  'DATA',
+  'MAN',
+  'ZEN',
+  'ZOES'
+]);

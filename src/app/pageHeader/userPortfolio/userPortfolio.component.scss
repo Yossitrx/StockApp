@@ -1,0 +1,43 @@
+.user-portfolio {
+  .card-container {
+    padding: 5px;
+    width: 300px;
+    display: inline-block;
+  }
+
+  .img-container {
+    max-width: 300px;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+  }
+
+  .title {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card-section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 620px;
+  }
+
+  mat-card-subtitle, mat-card-title {
+    text-align: initial;
+  }
+
+  .empty-portfolio{
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Anton', sans-serif;
+  }
+}

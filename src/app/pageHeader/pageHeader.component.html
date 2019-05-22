@@ -1,0 +1,19 @@
+<div class="container">
+  <header>
+    <span class="head-title">StellareStock - a Stock Ticker App</span>
+    <div *ngIf="isApiError" class="api-error">*** The API Server seems to be down</div>
+  </header>
+  <section>
+
+    <div class="drop-down-container">
+      <dropDownListSelector (selectionChange)="stockSelectorClick($event)"
+                            [disabled]="isHalt"
+                            [list]="stockList">
+      </dropDownListSelector>
+    </div>
+
+    <userPortfolio></userPortfolio>
+  </section>
+  <footer>By: Yossi Azoulay &copy;</footer>
+</div>
+
